@@ -1,11 +1,11 @@
 {
-  "name": "facebook-insight",
+  "name": "es6-express-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express boilerplate using ES6, Handlebars as template",
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/app.js",
-    "auto-start": "nodemon --exec \"npm start\" --ignore public/js",
+    "dev-start": "nodemon --exec \"npm start\" --ignore public/js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
